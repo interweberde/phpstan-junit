@@ -5,7 +5,7 @@ Generate error reporter used to create JUnit output
 Include as dependency by:
 
 ```
-composer require --dev mavimo/phpstan-junit
+composer require --dev interweberde/phpstan-junit
 ```
 
 And enable on your `phpstan.neon` config file by including
@@ -13,7 +13,7 @@ And enable on your `phpstan.neon` config file by including
 ```
 services:
     errorFormatter.junit:
-        class: Mavimo\PHPStan\ErrorFormatter\JunitErrorFormatter
+        class: Interweberde\PHPStan\ErrorFormatter\JunitErrorFormatter
 ```
 
 than execute it by running:
